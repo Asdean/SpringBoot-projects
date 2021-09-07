@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SpringBoot-projects</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+
+    <modules>
+        <module>springboot-first</module>
+        <module>springboot-springmvc</module>
+        <module>springboot-properties</module>
+        <module>springboot-yml</module>
+        <module>springboot-environment-properties</module>
+        <module>springboot-environment-yml</module>
+        <module>springboot-configuration</module>
+        <module>springboot-configuration-object</module>
+        <module>springboot-jsp</module>
+        <module>springboot-mybatis</module>
+        <module>springboot-RESTful</module>
+        <module>springboot-dubbo-ssm-provider</module>
+        <module>springboot-dubbo-ssm-consumer</module>
+        <module>springboot-dubbo-ssm-interface</module>
+        <module>springboot-java</module>
+        <module>springboot-interceptor</module>
+        <module>springboot-jar</module>
+        <module>springboot-thymeleaf</module>
+    </modules>
+</project>

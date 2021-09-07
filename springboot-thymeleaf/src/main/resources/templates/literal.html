@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>字面量</title>
+</head>
+<body>
+<h1>文本字面量,用单引号'....'的字符串就是字面量</h1>
+<a th:href="@{'/user/detail?sex=' + ${sex}}">查看性别</a>
+<span th:text="Hello"></span>
+
+<h1>数字字面量</h1>
+今年是<span th:text="2020">1949</span>年<br/>
+20年后是<span th:text="2020+20">1969</span>年<br/>
+
+<h1>boolean字面量</h1>
+<div th:if="${flag}">
+    执行成功
+</div>
+<div th:if="${!flag}">
+    不成功
+</div>
+
+<h1>null字面量</h1>
+<span th:text="${user.id}"></span>
+
+<!--userDetail.id为空,无数据,不展示-->
+<span th:text="${userDetail.id}"></span>
+<span th:text="${userDetail.id}">没有值</span>
+
+<br />
+<br />
+
+<div th:if="${userDetail.id eq null}">
+    空
+</div>
+</body>
+</html>

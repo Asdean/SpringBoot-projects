@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-thymeleaf" />
+        <module name="springboot-jsp" />
+        <module name="springboot-dubbo-ssm-provider" />
+        <module name="springboot-environment-yml" />
+        <module name="springboot-configuration" />
+        <module name="springboot-springmvc" />
+        <module name="springboot-configuration-object" />
+        <module name="springboot-interceptor" />
+        <module name="springboot-jar" />
+        <module name="springboot-yml" />
+        <module name="springboot-first" />
+        <module name="springboot-java" />
+        <module name="springboot-environment-properties" />
+        <module name="springboot-RESTful" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-dubbo-ssm-consumer" />
+        <module name="springboot-properties" />
+        <module name="springboot-dubbo-ssm-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="springboot-transaction" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

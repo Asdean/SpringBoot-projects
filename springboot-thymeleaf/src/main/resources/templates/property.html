@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>常见属性</title>
+</head>
+<body>
+<form method="get" action="http://localhost:8080/test1">
+    用户编号:<input type="text" name="id" /><br/>
+    用户姓名:<input type="text" name="username" /><br/>
+    用户年龄<input type="text" name="age" /><br/>
+    <input type="submit" value="submit"/>
+</form>
+<br />
+<br />
+<br />
+
+<!--后台取值需要加th:, 其他可加可不加-->
+<form th:method="post" th:action="@{/test1}">
+    用户编号:<input type="text" id="id" th:name="id" /><br/>
+    用户姓名:<input type="text" th:id="username" th:name="username" /><br/>
+    用户年龄<input type="text" th:id="age" th:name="age" /><br/>
+    <input type="submit" value="submit"/>
+</form>
+
+<script type="text/javascript">
+    function test() {
+        alert("-----");
+    }
+</script>
+<br />
+<br />
+<br />
+<!--没有区别-->
+<button th:onclick="test()">submit1</button>
+<button onclick="test()">submit2</button>
+
+</body>
+</html>

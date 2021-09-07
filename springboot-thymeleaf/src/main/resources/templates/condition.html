@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>th:if 用法:如果满足条件显示(执行),否则相反</h1>
+<div th:if="${sex eq 1}">
+    男
+</div>
+<div th:if="${sex eq 0}">
+    女
+</div>
+
+<h1>th:unless 用法:与th:if用法相反,即条件判断取反</h1>
+<!--<div th:unless>不符和语法-->
+<div th:unless="${sex eq 0}">
+    男
+</div>
+
+<h1>th:switch/th:case用法</h1>
+<div th:switch="${productType}">
+    <span th:case="0">产品0</span>
+    <span th:case="1">产品1</span>
+    <span th:case="*">无此产品</span>
+</div>
+</body>
+</html>
