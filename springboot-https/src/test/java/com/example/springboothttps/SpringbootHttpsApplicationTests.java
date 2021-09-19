@@ -1,10 +1,10 @@
-package com.example.springbootasync;
+package com.example.springboothttps;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootAsyncApplicationTests {
+class SpringbootHttpsApplicationTests {
 
     @Test
     void contextLoads() {

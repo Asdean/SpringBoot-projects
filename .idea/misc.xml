@@ -4,7 +4,11 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/demo" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-dubbo-ssm-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jar" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-war" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
+    <file type="web" url="file://$PROJECT_DIR$/WebSocket" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -28,6 +32,13 @@
         <option value="$PROJECT_DIR$/springboot-interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jar/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/WebSocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-war/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
       </list>
     </option>
   </component>

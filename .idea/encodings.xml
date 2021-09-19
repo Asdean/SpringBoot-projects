@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/WebSocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebSocket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-RESTful/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-RESTful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-async/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-configuration-object/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-configuration-object/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-configuration/src/main/java" charset="UTF-8" />
@@ -17,8 +21,12 @@
     <file url="file://$PROJECT_DIR$/springboot-environment-properties/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-environment-yml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-environment-yml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-exception/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-first/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-first/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-https/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-https/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-interceptor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jar/src/main/java" charset="UTF-8" />
@@ -35,8 +43,16 @@
     <file url="file://$PROJECT_DIR$/springboot-properties/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-springmvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-springmvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-war/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-war/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-websocket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-websocket/src/main/webapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-yml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-yml/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

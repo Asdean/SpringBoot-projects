@@ -32,7 +32,14 @@
         <module>springboot-dubbo-ssm-interface</module>
         <module>springboot-java</module>
         <module>springboot-interceptor</module>
+        <module>springboot-war</module>
         <module>springboot-jar</module>
         <module>springboot-thymeleaf</module>
+        <module>springboot-swagger</module>
+        <module>springboot-async</module>
+        <module>WebSocket</module>
+        <module>springboot-websocket</module>
+        <module>springboot-https</module>
+        <module>springboot-exception</module>
     </modules>
 </project>
